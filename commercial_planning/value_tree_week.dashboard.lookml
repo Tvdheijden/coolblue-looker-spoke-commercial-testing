@@ -8,7 +8,7 @@
   elements:
   - title: GPI tile
     name: GPI tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.gross_profit_impact_distributed_html_week_target_wow_yoy]
@@ -47,7 +47,7 @@
     height: 4
   - title: Sales marketing tile
     name: Sales marketing tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.sales_marketing_cost_html_week_target_wow_yoy]
@@ -91,7 +91,7 @@
     height: 4
   - title: Additional media income tile
     name: Additional media income tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.additional_marketing_income_html_week_target_wow_yoy]
@@ -136,7 +136,7 @@
     height: 4
   - title: TMpO tile
     name: TMpO tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.transaction_margin_per_order_html_week_target_wow_yoy]
@@ -175,7 +175,7 @@
     height: 4
   - title: Orders tile
     name: Orders tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.orders_html_week_target_wow_yoy]
@@ -215,7 +215,7 @@
     height: 4
   - title: Variable cost per order tile
     name: Variable cost per order tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.variable_cost_per_order_html_week_target_wow_yoy]
@@ -254,7 +254,7 @@
     height: 4
   - title: AMpO tile
     name: AMpO tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.attached_margin_per_order_html_week_target_wow_yoy]
@@ -298,7 +298,7 @@
     height: 4
   - title: Primary margin per order tile
     name: Primary margin per order tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.primary_margin_per_order_html_week_target_wow_yoy]
@@ -343,7 +343,7 @@
     height: 4
   - title: Sales tile
     name: Sales tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.sales_html_week_target_wow_yoy]
@@ -383,7 +383,7 @@
     height: 4
   - title: SPQ tile
     name: SPQ tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.products_sold_html_week_target_wow_yoy]
@@ -423,7 +423,7 @@
     height: 4
   - title: ASP tile
     name: ASP tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.average_sales_price_html_week_target_wow_yoy]
@@ -463,7 +463,7 @@
     height: 4
   - title: Visibility cost tile
     name: Visibility cost tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.visibility_cost_distributed_html_week_target_wow_yoy]
@@ -508,7 +508,7 @@
     height: 4
   - title: Last Week header
     name: Last Week header
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: single_value
     fields: [commercial_results.last_week_tile]
@@ -633,7 +633,7 @@
     height: 4
   - title: Partner marketing
     name: Partner marketing
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.partner_marketing_cost_html_week_target_wow_yoy]
@@ -689,7 +689,7 @@
     height: 8
   - title: TM tile
     name: TM tile
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.transaction_margin_html_week_target_wow_yoy]
@@ -736,7 +736,7 @@
     height: 4
   - title: Margin %
     name: Margin %
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.margin_perc_html_week_target_wow_yoy]
@@ -783,7 +783,7 @@
     height: 4
   - title: Margin
     name: Margin
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     type: marketplace_viz_multiple_value::multiple_value-marketplace
     fields: [commercial_results.margin_html_week_target_wow_yoy]
