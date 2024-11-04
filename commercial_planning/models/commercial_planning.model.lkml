@@ -11,6 +11,9 @@ include: "/commercial_planning/views/products.view.lkml"
 include: "/commercial_planning/views/product_lines_info.view.lkml"
 include: "/commercial_planning/views/v_dim_product.view.lkml"
 
+# Include the value_tree_dashboard file
+include: "../value_tree_week.dashboard"
+
 # Create the explore
 explore: commercial_results {
   label: "Commercial Results per Product"
