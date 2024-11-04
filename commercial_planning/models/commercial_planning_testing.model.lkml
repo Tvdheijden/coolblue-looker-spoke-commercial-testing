@@ -11,21 +11,12 @@ include: "/commercial_planning/views/products.view.lkml"
 include: "/commercial_planning/views/product_lines_info.view.lkml"
 include: "/commercial_planning/views/v_dim_product.view.lkml"
 
-# Define access grants
-
-# Grants access to all sensitive commercial models (everything with sales and margin data)
-access_grant: commercial_teams_sensitive {
-  user_attribute: commercial_teams_attribute
-  allowed_values: ["commercial-teams-sensitive", "commercial-teams-hr-data", "commercial-developers", "super-users"]
-}
-
 # Create the explore
 explore: commercial_results {
   label: "Commercial Results per Product"
-  group_label: "Commercial Teams"
+  group_label: "Commercial Planning"
   description: "Explore with commercial data and targets on product level"
   from:  commercial_results
-  required_access_grants: [commercial_teams_sensitive]
 
   #Always where so that there is only data from 2018+. This CANNOT be adjusted by the end users
   # sql_always_where: EXTRACT(YEAR FROM invoice_date) >= 2018 ;;
@@ -34,7 +25,7 @@ explore: commercial_results {
 
   #Always filter on B2B and Consumer sales only and teams in category teams. This CAN be adjusted by the end users
   always_filter: {
-    filters: [commercial_results.customertype: "B2B,Consumer,Business Consumer"]
+    filters: [commercial_results.customertype: "B2B, Consumer, Business Consumer"]
   }
   case_sensitive: no
 
