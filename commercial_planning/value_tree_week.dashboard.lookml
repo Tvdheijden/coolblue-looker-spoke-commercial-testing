@@ -934,7 +934,7 @@
       type: advanced
       display: popover
       options: []
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: []
     field: commercial_results.team
@@ -948,7 +948,7 @@
       type: advanced
       display: popover
       options: []
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: [Team]
     field: commercial_results.producttype
@@ -962,7 +962,7 @@
       type: advanced
       display: popover
       options: []
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: [Team, Product Type]
     field: commercial_results.subproducttype
@@ -976,7 +976,7 @@
       type: advanced
       display: popover
       options: []
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: [Team, Product Type]
     field: commercial_results.brand
@@ -989,7 +989,7 @@
     ui_config:
       type: advanced
       display: popover
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: []
     field: commercial_results.subsidiary_country
@@ -1003,7 +1003,7 @@
       type: advanced
       display: popover
       options: []
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: []
     field: commercial_results.region
@@ -1016,7 +1016,7 @@
     ui_config:
       type: advanced
       display: popover
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: []
     field: commercial_results.customertype
@@ -1029,7 +1029,7 @@
     ui_config:
       type: checkboxes
       display: inline
-    model: commercial_planning
+    model: commercial_planning_testing
     explore: commercial_results
     listens_to_filters: []
     field: commercial_results.focus_producttype
