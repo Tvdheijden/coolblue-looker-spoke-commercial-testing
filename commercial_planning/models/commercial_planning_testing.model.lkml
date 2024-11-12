@@ -1,5 +1,5 @@
 # The database connection used for this model
-connection: "ops_commercial_planning"
+connection: "ops_commercial_planning_testing"
 label: "Commercial Planning"
 
 # Include all the view files
