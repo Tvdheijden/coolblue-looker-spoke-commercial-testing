@@ -160,6 +160,7 @@ view: +commercial_results {
   }
 
   measure: last_week_tile {
+    hidden: no
     view_label: "Developer metrics"
     type: count
     html:
@@ -603,6 +604,7 @@ view: +commercial_results {
 
 #GROSS PROFIT IMPACT
   measure: gross_profit_impact_distributed_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Gross profit impact distributed"
     label: "Last week - delta target/wow/yoy"
@@ -727,6 +729,7 @@ view: +commercial_results {
 
 #VISIBILITY COST/BRAND MARKETING COST
   measure: visibility_cost_distributed_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Brand Marketing cost distributed"
     label: "Last week - delta target/wow/yoy"
@@ -810,6 +813,7 @@ view: +commercial_results {
 
 #SALES MARKETING COST
   measure: sales_marketing_cost_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Sales marketing cost"
     label: "Last week - delta target/wow/yoy"
@@ -889,6 +893,7 @@ view: +commercial_results {
 
 #PARTNER MARKETING COST
   measure: partner_marketing_cost_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Partner marketing cost"
     label: "Last week - delta target/wow/yoy"
@@ -967,6 +972,7 @@ view: +commercial_results {
 
 #ADDITIONAL MARKETING INCOME
   measure: additional_marketing_income_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Additional marketing income"
     label: "Last week - delta target/wow/yoy"
@@ -1050,6 +1056,7 @@ view: +commercial_results {
 
 #VARIABLE COST PER ORDER
   measure: variable_cost_per_order_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Variable cost per order"
     label: "Last week - delta target/wow/yoy"
@@ -1129,6 +1136,7 @@ view: +commercial_results {
 
 #AVERAGE SALES PRICE
   measure: average_sales_price_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Average sales price"
     label: "Last week - delta target/wow/yoy"
@@ -1259,6 +1267,7 @@ view: +commercial_results {
 
 #PRIMARY MARGIN PER ORDER
   measure: primary_margin_per_order_html_week_target_wow_yoy{
+    hidden: no
     view_label: "Html combinations"
     group_label: "Primary margin per order"
     label: "Last week - delta target/wow/yoy"
@@ -1364,6 +1373,7 @@ view: +commercial_results {
 
 #MARGIN
   measure: margin_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Margin"
     label: "Last week - delta target/wow/yoy"
@@ -1598,6 +1608,7 @@ view: +commercial_results {
   }
 
   measure: margin_perc_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Margin %"
     label: "Last week - delta target/wow/yoy"
@@ -1702,6 +1713,7 @@ view: +commercial_results {
   }
 
   measure: attached_margin_per_order_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Attached margin per order"
     label: "Last week - delta target/wow/yoy"
@@ -1781,6 +1793,7 @@ view: +commercial_results {
 
 #SALES
   measure: sales_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Sales"
     label: "Last week - delta target/wow/yoy"
@@ -1990,6 +2003,7 @@ view: +commercial_results {
 
 #ORDERS
   measure: orders_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Orders"
     label: "Last week - delta target/wow/yoy"
@@ -2188,6 +2202,7 @@ view: +commercial_results {
   }
 
   measure: transaction_margin_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Transaction margin"
     label: "Last week - delta target/wow/yoy"
@@ -2283,6 +2298,7 @@ view: +commercial_results {
 
 #TRANSACTION MARGIN PER ORDER
   measure: transaction_margin_per_order_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Transaction margin per order"
     label: "Last week - delta target/wow/yoy"
@@ -2508,6 +2524,7 @@ view: +commercial_results {
 
 #PRODUCTS SOLD
   measure: products_sold_html_week_target_wow_yoy {
+    hidden: no
     view_label: "Html combinations"
     group_label: "Products sold"
     label: "Last week - delta target/wow/yoy"
