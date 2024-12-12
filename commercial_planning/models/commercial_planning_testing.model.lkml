@@ -26,10 +26,6 @@ explore: commercial_results {
   #Always exclude teams that are not part of the category teams, like zonnepanelen and zz.opruimen
   sql_always_where: commercial_results.teamid NOT IN (0, 7045, 21, 6045, 2, 42, 4044) ;;
 
-  #Always filter on B2B and Consumer sales only and teams in category teams. This CAN be adjusted by the end users
-  always_filter: {
-    filters: [commercial_results.customertype: "B2B, Consumer, Business Consumer"]
-  }
   case_sensitive: no
 
   join: products {
